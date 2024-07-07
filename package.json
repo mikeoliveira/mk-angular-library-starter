@@ -88,5 +88,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "description": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+  "main": "jest.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
