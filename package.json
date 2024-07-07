@@ -12,7 +12,6 @@
     "customize": "node tools/customization.mjs",
     "lint": "eslint projects/**/*.ts",
     "lint-staged": "lint-staged --allow-empty",
-    "commitlint": "commitlint --edit",
     "watch:library": "jest --config projects/angular-library-starter/jest.config.js --watch",
     "test:library": "jest --config projects/angular-library-starter/jest.config.js",
     "test:showcase": "jest --config projects/angular-library-starter-showcase/jest.config.js",
@@ -81,18 +80,6 @@
     "semantic-release": "^19.0.5",
     "tailwindcss": "^3.2.4",
     "typescript": "^5.4.5"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "body-max-line-length": [
-        1,
-        "always",
-        100
-      ]
-    }
   },
   "lint-staged": {
     "*.{ts,js,html,css,scss,less,md,json}": "prettier --write"
