@@ -5,6 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class AngularLibraryStarterSampleService {
   public getBestFramework(): string {
-    return 'Angular-4';
+    return 'Angular-5';
   }
 }
